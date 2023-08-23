@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.container{
+.app{
     display: flex;
     /* overflow: hidden; */
 }
-textarea, .markdown{
+textarea, .preview{
     width: 50vw;
     height: 100vh;
 }
@@ -18,7 +18,7 @@ textarea{
 textarea:focus{
     outline: none;
 }
-.markdown{
+.preview{
     font-size: 1.3em;
     font-weight: 500;
     background-color: lightgrey;

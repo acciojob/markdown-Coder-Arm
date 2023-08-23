@@ -4,9 +4,9 @@ import '../styles/App.css'
 const App = () => {
    const[markdown,setMarkdown] = useState("");
 
-   return(<div className='container'>
+   return(<div className='app'>
     <textarea value={markdown} onChange={(e)=> setMarkdown(e.target.value)}/>
-    <div className='markdown'>
+    <div className='preview'>
     {markdown}
     </div>
    </div>)
