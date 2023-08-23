@@ -7,7 +7,7 @@ const App = () => {
    return(<div className='app'>
     <textarea value={markdown} onChange={(e)=> setMarkdown(e.target.value)}/>
     <div className='preview'>
-    {markdown}
+    <h1>{markdown}</h1>
     </div>
    </div>)
 }
