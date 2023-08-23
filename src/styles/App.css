@@ -1,12 +1,25 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    /* overflow: hidden; */
+}
+textarea, .markdown{
+    width: 50vw;
+    height: 100vh;
+}
+textarea{
+    background-color: rgb(238, 238, 238);
+    border: none;
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+}
+.markdown{
+    font-size: 1.3em;
+    font-weight: 500;
+    background-color: lightgrey;
 }
